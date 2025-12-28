@@ -50,10 +50,10 @@ def monthly_challenge(request, month):
         
         # response_data_html = render_to_string("challenges/challenge.html")
         # return HttpResponse(response_data_html)
-        cap_month = month.capitalize()
+        # cap_month = month.capitalize()
         return render(request, "challenges/challenge.html", {
             "text" : challenge_text,
-            "month": cap_month
+            "month": month
         })
         
     except:
