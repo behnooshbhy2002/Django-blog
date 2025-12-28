@@ -15,7 +15,7 @@ monthly_challenges = {
     "september": "No sugar for the entire month",
     "october": "Meditate for at least 10 minutes every day",
     "november": "Save money: no unnecessary spending",
-    "december": "Message or call one friend/family member every day"
+    "december": None
 }
 
 # Create your views here.
